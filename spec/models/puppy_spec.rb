@@ -7,7 +7,7 @@ describe 'Puppy class' do
       Puppy.new(name: "brad", breed: "black lab", age: 2)
     elsif arity == 3
       # assuming you want to instantiate a puppy with three separate args
-      Puppy.new("brad", "black lab", 2)
+      Puppy.new("brad", 2, "black lab")
     else
       # beyond that I can't help you
       nil
